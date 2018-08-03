@@ -5,7 +5,7 @@
     http://www.google.com/design/spec/style/color.html#color-ui-color-palette -->
     <!-- resource from https://gist.github.com/daniellevass/b0b8cfa773488e138037-->
 
-    <!--reds-->
+    <!--red-->
     <color name="md_red_50">#FFEBEE</color>
     <color name="md_red_100">#FFCDD2</color>
     <color name="md_red_200">#EF9A9A</color>
@@ -21,7 +21,7 @@
     <color name="md_red_A400">#FF1744</color>
     <color name="md_red_A700">#D50000</color>
 
-    <!-- pinks -->
+    <!-- pink -->
     <color name="md_pink_50">#FCE4EC</color>
     <color name="md_pink_100">#F8BBD0</color>
     <color name="md_pink_200">#F48FB1</color>
@@ -37,7 +37,7 @@
     <color name="md_pink_A400">#F50057</color>
     <color name="md_pink_A700">#C51162</color>
 
-    <!-- purples -->
+    <!-- purple -->
     <color name="md_purple_50">#F3E5F5</color>
     <color name="md_purple_100">#E1BEE7</color>
     <color name="md_purple_200">#CE93D8</color>
@@ -284,6 +284,7 @@
     <color name="md_grey_700">#616161</color>
     <color name="md_grey_800">#424242</color>
     <color name="md_grey_900">#212121</color>
+
     <color name="md_black_1000">#000000</color>
     <color name="md_white_1000">#ffffff</color>
 
@@ -298,5 +299,17 @@
     <color name="md_blue_grey_700">#455A64</color>
     <color name="md_blue_grey_800">#37474F</color>
     <color name="md_blue_grey_900">#263238</color>
+
+    <!--light background dark text-->
+    <color name="md_dark_primary_text">#DE000000</color>
+    <color name="md_dark_secondary_text">#8A000000</color>
+    <color name="md_dark_disabled_text">#61000000</color>
+    <color name="md_dark_hint_text">#61000000</color>
+
+    <!--dark background light text-->
+    <color name="md_light_primary_text">#FFFFFFFF</color>
+    <color name="md_light_secondary_text">#B3FFFFFF</color>
+    <color name="md_light_disabled_text">#80FFFFFF</color>
+    <color name="md_light_hint_text">#80FFFFFF</color>
 
 </resources>
