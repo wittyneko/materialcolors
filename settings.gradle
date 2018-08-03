@@ -1,0 +1,3 @@
+include ':library'
+include ':gradle-tools'
+project(':gradle-tools').projectDir = file("${System.properties['user.home']}/gradle-tools")
