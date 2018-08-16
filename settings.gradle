@@ -1,3 +1,5 @@
+def userHome = System.properties['user.home']
+
 include ':library'
 include ':gradle-tools'
-project(':gradle-tools').projectDir = file("${System.properties['user.home']}/gradle-tools")
+project(':gradle-tools').projectDir = file("$userHome/code/neko/gradle-tools")
